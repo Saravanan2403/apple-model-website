@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script>"https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"</script>
+    <title>Document</title>
+</head>
+<style>
+    #parent{
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+    }
+    #left{
+        height: 10vh;
+        width: 20vh;
+        background-color: white;
+    }
+    #centre{
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color:white ;
+    }
+    #right{
+        height: 10vh;
+        width: 20vw;
+        background-color: white;
+    }
+    #parent2{
+        height: 16vh;
+        width: 100vw;
+        text-align: center;
+        background-color: aqua;
+        /* display: flex; */
+    }
+    #parent3{
+        height: 50vh;
+        width: 100vw;
+        /* transform: translatex(440px); */
+        display: flex;
+        background-color:aqua;
+    }
+    #centre3 img{
+          transform: translatex(440px); 
+        
+    }
+    #parent4{
+        text-align: center;
+        height: 5vh;
+        width: 100vw;
+        background-color: aqua;
+    }
+    #parent4 button{
+        transform: translateY(-15px);
+        font-size: large;
+        border-radius: 20px;
+        background-color:white;
+    }
+    #parent5{
+        height: 70vh;
+        width: 100vw;
+        background-color: white;
+    }
+    #centre5{
+        text-align: center;
+    }
+    #centre5 button{
+        transform: translateY(-10px);
+        border: solid 5px white;
+        font-size: large;
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+    #centre5 img{
+    border-radius: 20px;
+    }
+    #parent6{
+        height: 60vh;
+        width: 100vw;
+        background-color: black;
+        /* display: flex; */
+    }
+    #centre6{
+        color: white;
+        text-align: center;
+    }
+    #centre6 button{
+        border: solid black 5px;
+        font-size: larger;
+        border-radius: 10px;
+        background-color: blueviolet;
+    }
+    #centre6 button:hover{
+        background-color: burlywood;
+    }
+    #parent7{
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        background-image: url(apple7.jpg);
+    }
+    #centre7{
+        height: 50vh;
+        width: 100vw;
+        transform: translateX(450px);
+    }
+    #parent8{
+        width: 100vw;
+        height: 80vh;
+        background-color: cyan;
+        display: flex;
+    }
+    #left8{
+        width: 50vw;
+        height: 70vh;
+        text-align: center;
+        /* color: white; */
+    }
+    #left8 img{
+        border-radius: 20px;
+        padding-top: 15px;
+    }
+    #right8 img{
+        border-radius: 20px;
+        padding-top: 50px;
+        transform: translateX(40px);
+    }
+    #parent9{
+        height: 60vh;
+        width: 100vw;
+        display: flex;
+    }
+    #left9{
+        height: 50vh;
+        width: 50vw;
+        text-align: center;
+    }
+    #right9{
+        transform: translateX(200px);
+        text-align: center;
+    }
+    #parent10{
+        height: 50vh;
+        width: 100vw;
+        background-color: burlywood;
+        display: flex;
+    }
+    #left10{
+        height: 60vh;
+        width: 20vw;
+    }
+    #centre10{
+        height: 60vh;
+        width: 20vw;
+    }
+    #left10{
+        height: 60vh;
+        width: 20vw;
+    }
+    #right10{
+        height: 60vh;
+        width: 20vw;
+    }
+    #right110{
+        height: 60vh;
+        width: 25vw;
+    }
+    #parent11{
+        height: 6vh;
+        width: 100vw;
+        background-color: cadetblue;
+        display: flex;
+    }
+    #left11{
+        height: 6vh;
+        width: 40vw;
+        padding: 10px;
+    }
+    #right11{
+        height: 6vh;
+        padding: 10px;
+    }
+ 
+    
+
+</style>
+<body>
+<div id="parent">
+    <div id="left">
+
+    </div>
+    <div id="centre">
+        <img src="apple.svg">
+        <p><a style="text-decoration: none;" href="https://www.apple.com/in/store">Store</a></p>
+        <p><a style="text-decoration: none;" href="https://www.apple.com/in/mac/">Mac</a></p>
+        <p><a style="text-decoration: none;" href="https://www.apple.com/in/ipad/">ipad</a></p>
+        <p><a style="text-decoration: none;" href="https://www.apple.com/in/iphone/">iphone</a></p>
+        <p><a style="text-decoration: none;" href="https://www.apple.com/in/watch/">watch</a></p>
+        <p><a style="text-decoration: none;" href="https://www.apple.com/in/airpods/">Airpods</a></p>
+        <p><a style="text-decoration: none;" href="https://www.apple.com/in/tv-home/">TV & hOME</a></p>
+        <p><a style="text-decoration: none;" href="https://www.apple.com/in/shop/accessories/all">Accessories</a></p>
+        <p><a style="text-decoration: none;" href="https://support.apple.com/en-in?cid=gn-ols-home-hp-tab">Support</a></p>
+        <img src="search.svg">
+    </div>
+    <div id="right">
+
+    </div>
+</div>
+<div id="parent2">
+<div id="p1">
+    <p>Get iPhone 15 Pro from ₹5621.00/mo.‡ for 24 mo. with No Cost EMI from most leading banks.</p>
+    <a href="https://www.apple.com/in-edu/shop/buy-iphone/iphone-15-pro">Buy now</a>
+
+</div>
+</div>
+<div id="parent3">
+    <div id="centre3">
+        <img  style="border-radius: 90px;" src="apple.jpg" width="500px">
+    </div>
+</div>
+<div id="parent4">
+    <button >Shop</button>
+</div>
+<div id="parent5">
+    <div id="centre5">
+        <h1>MacBook Air</h1>
+        <p>Superchanged by M3</p>
+        <button>Learn more</button><button>Buy</button><br>
+        <img width="400px" src="apple2.jpg">
+    </div>
+</div>
+<div id="parent6">
+    <div id="centre6">
+        <h1>iPhone 15 Pro</h1>
+        <h4>Titanium.So strong.So light.So Pro</h4>
+        <button>Learn more</button><button>Buy</button><br>
+         <img width="350px" src="apple6.jpg">
+    </div>
+</div>
+<div id="parent7">
+    <div id="centre7">
+        <img src="apple7.jpg" width="450px">
+    </div>
+</div>
+<div id="parent8">
+    <div id="left8">
+        <img src="apple9.jpg" width="400vw" height="500px">
+
+    </div>
+    <div id="right8">
+        <h1 style=" text-align: center; padding-top: 10px;">The new world</h1>
+        <h3 style=" text-align: center; padding-top: 10px;" >Explore more with apple</h3>
+        <img style="padding-left: -10px;" src="apple10.jpg" width="425px">
+
+    </div>
+</div>
+<div id="parent9">
+    <div id="left9">
+        <h1>iPad air</h1>
+        <h4>Two sizes.Faster chip.Does it all</h4>
+        <img src="apple11.jpg" width="300px">
+    </div>
+    <div id="right9">
+        <img src="apple.svg"><h2>Trade in</h2>
+        <h4>Update and save it</h4>
+        <img style="padding-top: 30px;" src="apple12.jpg">
+    </div>
+</div>
+<div id="parent10">
+    <div id="left10">
+        <h2>Shop and Learn</h2>
+        <ul>
+            <li>Store</li>
+            <li>Mac</li>
+            <li>iPad</li>
+            <li>Watch</li>
+            <li>TV and Home</li>
+            <li>Air tag</li>
+            <li>Applications</li>
+        </ul>
+
+    </div>
+    <div id="centre10">
+        <h2>Account</h2>
+        <ul>
+            <li>Manage Your Apple ID</li>
+            <li>Apple Store Account</li>
+            <li>iCloud.com</li>
+        </ul>
+        <h2>Entertainment</h2>
+        <ul>
+            <li>Apple One</li>
+             <li>   Apple TV+</li>
+              <li> Apple Music</li>
+               <li> Apple Arcade</li>
+               <li>Apple Podcasts</li>
+        </ul>
+    </div>
+    <div id="right10">
+        <h2>Apple store</h2>
+        <ul>
+            <li>Find a Store</li>
+             <li>   Genius Bar</li>
+             <li>   Today at Apple</li>
+             <li>   Group Reservations</li>
+              <li>Apple Camp</li>
+               <li>Apple Trade In</li>
+               <li>Ways to Buy</li>
+               <li> Recycling Programme</li>
+               <li> Order Status</li>
+                <li>Shopping Help</li>
+        </ul>
+
+    </div>
+    <div id="right110">
+        <h2>For business</h2>
+        <ul>
+            <li>Apple and Business</li>
+               <li> Shop for Business</li>
+        </ul>
+        <h2>For education</h2>
+        <ul>
+            <li>Apple and Education</li>
+             <li> Shop for Education</li>
+              <li> Shop for University</li>
+        </ul>
+    </div>
+    <div id="right120">
+        <h2>Apply values</h2>
+        <ul>
+            <li>Accessibility</li>
+               <li> Education</li>
+                <li>Environment</li>
+               <li> Privacy</li>
+               <li> Supply Chain</li>
+        </ul>
+
+    </div>
+
+</div>
+<div id="parent11">
+    <p>__________________</p>
+    <div id="left11">
+    <p>Copyright © 2024 Apple Inc. All rights reserved.</p>
+    </div>
+    <div id="right11">
+    <p>Privacy Policy |Terms of Use Sales |Policy Legal| Site Map</p>
+    </div>
+</div>
+
+
+</body>
+</html>
